@@ -1,0 +1,399 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "add": "追加",
+    "remove": "削除",
+    "clear": "クリア",
+    "clearAll": "すべてクリア",
+    "loading": "読み込み中",
+    "error": "エラー",
+    "success": "成功",
+    "warning": "警告",
+    "confirm": "確認",
+    "settings": "設定",
+    "advanced": "詳細",
+    "enabled": "有効",
+    "disabled": "無効",
+    "platform": "プラットフォーム",
+    "refresh": "更新",
+    "rewind": "巻き戻し"
+  },
+  "chat": {
+    "rewind": {
+      "confirmMessage": "この時点に巻き戻しますか？このメッセージ以降のファイル変更が元に戻されます。手動またはbashで編集されたファイルには影響しません。",
+      "confirmButton": "巻き戻す",
+      "ariaLabel": "ここに巻き戻す",
+      "notice": "巻き戻し完了：{count} 個のファイルを復元",
+      "noticeSaveFailed": "巻き戻し完了：{count} 個のファイルを復元しましたが、状態を保存できませんでした：{error}",
+      "failed": "巻き戻しに失敗：{error}",
+      "cannot": "巻き戻しできません：{error}",
+      "unavailableStreaming": "ストリーミング中は巻き戻しできません",
+      "unavailableNoUuid": "巻き戻しできません：メッセージ識別子がありません"
+    },
+    "fork": {
+      "ariaLabel": "会話を分岐",
+      "chooseTarget": "会話を分岐",
+      "targetNewTab": "新しいタブ",
+      "targetCurrentTab": "現在のタブ",
+      "maxTabsReached": "分岐できません：最大 {count} タブに達しました",
+      "notice": "新しいタブに分岐しました",
+      "noticeCurrentTab": "現在のタブで分岐しました",
+      "failed": "分岐に失敗：{error}",
+      "unavailableStreaming": "ストリーミング中は分岐できません",
+      "unavailableNoUuid": "分岐できません：メッセージ識別子がありません",
+      "unavailableNoResponse": "分岐できません：分岐元の応答がありません",
+      "errorMessageNotFound": "メッセージが見つかりません",
+      "errorNoSession": "セッション ID がありません",
+      "errorNoActiveTab": "アクティブなタブがありません",
+      "commandNoMessages": "フォークできません: 会話にメッセージがありません",
+      "commandNoAssistantUuid": "フォークできません: 識別子付きのアシスタント応答がありません"
+    },
+    "bangBash": {
+      "placeholder": "> bash コマンドを実行...",
+      "commandPanel": "コマンドパネル",
+      "copyAriaLabel": "最新のコマンド出力をコピー",
+      "clearAriaLabel": "bash 出力をクリア",
+      "commandLabel": "{command}",
+      "statusLabel": "状態: {status}",
+      "collapseOutput": "コマンド出力を折りたたむ",
+      "expandOutput": "コマンド出力を展開",
+      "running": "実行中...",
+      "copyFailed": "クリップボードへのコピーに失敗しました"
+    },
+    "externalFile": {
+      "dropHint": "Drop files here",
+      "pickerTitle": "Attach Files or Folders",
+      "pickerError": "Unable to open file picker.",
+      "fileTooLarge": "File too large",
+      "attachButton": "Attach files"
+    },
+    "toolbar": {
+      "effortLabel": "推理:",
+      "thinkingLabel": "思考:",
+      "tokenCount": "{count} トークン",
+      "fastModeToggle": "高速モードを切り替え"
+    },
+    "externalContext": {
+      "pickerTitle": "外部コンテキストを選択",
+      "duplicate": "このフォルダーはすでに外部コンテキストに追加されています。",
+      "pickerError": "フォルダーピッカーを開けません。",
+      "conflictInside": "「{newPath}」は既存のパス「{existingPath}」の内側にあるため追加できません。",
+      "conflictContains": "「{newPath}」は既存のパス「{existingPath}」を含むため追加できません。",
+      "title": "外部コンテキスト",
+      "empty": "フォルダーアイコンをクリックして追加",
+      "makeSessionOnly": "永続化済み。クリックでこのセッションのみ。",
+      "makePersistent": "このセッションのみ。クリックで永続化。",
+      "removePath": "パスを削除",
+      "countTitle": "{count} 件の外部コンテキスト。クリックしてさらに追加。",
+      "addTitle": "外部コンテキストを追加",
+      "noPath": "パスが指定されていません。使い方: /add-dir /absolute/path",
+      "pathMustBeAbsolute": "パスは絶対パスである必要があります。使い方: /add-dir /absolute/path"
+    },
+    "mcp": {
+      "title": "MCP サーバー",
+      "noneConfigured": "MCP サーバーが設定されていません",
+      "allDisabled": "すべての MCP サーバーが無効です",
+      "contextSaving": "コンテキスト保存: @{name} でも有効化できます",
+      "countTitle": "{count} 件の MCP サーバーが有効です。クリックして管理。",
+      "enableTitle": "MCP サーバー。クリックして有効化。"
+    }
+  },
+  "settings": {
+    "title": "Codex for Obsidian 設定",
+    "tabs": {
+      "general": "一般",
+      "claude": "Codex",
+      "codex": "Codex"
+    },
+    "display": "表示",
+    "conversations": "会話",
+    "content": "コンテンツ",
+    "input": "入力",
+    "setup": "セットアップ",
+    "models": "モデル",
+    "experimental": "実験的機能",
+    "userName": {
+      "name": "Codex for Obsidian はどのように呼びますか？",
+      "desc": "パーソナライズされた挨拶に使用する名前（空欄で一般の挨拶）"
+    },
+    "excludedTags": {
+      "name": "除外タグ",
+      "desc": "これらのタグを含むノートは自動的にコンテキストとして読み込まれません（1行に1つ、#なし）"
+    },
+    "mediaFolder": {
+      "name": "メディアフォルダ",
+      "desc": "添付ファイル/画像を格納するフォルダ。ノートが ![[image.jpg]] を使用する場合、Codex はここで探します。空欄でリポジトリのルートを使用。"
+    },
+    "systemPrompt": {
+      "name": "カスタムシステムプロンプト",
+      "desc": "デフォルトのシステムプロンプトに追加される追加指示"
+    },
+    "autoTitle": {
+      "name": "会話タイトルを自動生成",
+      "desc": "最初のユーザーメッセージ送信後に会話タイトルを自動的に生成します。"
+    },
+    "titleModel": {
+      "name": "タイトル生成モデル",
+      "desc": "会話タイトルを自動生成するために使用されるモデル。",
+      "auto": "自動 (Codex)"
+    },
+    "navMappings": {
+      "name": "Vimスタイルナビゲーションマッピング",
+      "desc": "1行に1つのマッピング。形式：\"map <キー> <アクション>\"（アクション：scrollUp, scrollDown, focusInput）。"
+    },
+    "hotkeys": "ホットキー",
+    "inlineEditHotkey": {
+      "name": "インライン編集",
+      "descWithKey": "現在のホットキー: {hotkey}",
+      "descNoKey": "ホットキー未設定",
+      "btnChange": "変更",
+      "btnSet": "設定"
+    },
+    "openChatHotkey": {
+      "name": "チャットを開く",
+      "descWithKey": "現在のホットキー: {hotkey}",
+      "descNoKey": "ホットキー未設定",
+      "btnChange": "変更",
+      "btnSet": "設定"
+    },
+    "newSessionHotkey": {
+      "name": "新規セッション",
+      "descWithKey": "現在のホットキー: {hotkey}",
+      "descNoKey": "ホットキー未設定",
+      "btnChange": "変更",
+      "btnSet": "設定"
+    },
+    "newTabHotkey": {
+      "name": "新規タブ",
+      "descWithKey": "現在のホットキー: {hotkey}",
+      "descNoKey": "ホットキー未設定",
+      "btnChange": "変更",
+      "btnSet": "設定"
+    },
+    "closeTabHotkey": {
+      "name": "タブを閉じる",
+      "descWithKey": "現在のホットキー: {hotkey}",
+      "descNoKey": "ホットキー未設定",
+      "btnChange": "変更",
+      "btnSet": "設定"
+    },
+    "slashCommands": {
+      "name": "コマンドとスキル",
+      "desc": ".claude/commands/ と .claude/skills/ に保存された Vault レベルのコマンドとスキルを管理します。/名前 でトリガーされます。"
+    },
+    "hiddenSlashCommands": {
+      "name": "非表示コマンド",
+      "desc": "ドロップダウンから特定のスラッシュコマンドを非表示にします。Codex for Obsidian に関係のない Codex コマンドを非表示にするのに便利です。先頭のスラッシュなしでコマンド名を1行に1つ入力してください。",
+      "placeholder": "commit\nbuild\ntest"
+    },
+    "mcpServers": {
+      "name": "MCP サーバー",
+      "desc": ".claude/mcp.json に保存された Vault レベルの MCP サーバー設定を管理します。コンテキスト保存モードのサーバーは @mention でアクティブにする必要があります。"
+    },
+    "plugins": {
+      "name": "Codex プラグイン",
+      "desc": "~/.claude/plugins から検出された Codex プラグインを管理します。有効化されたプラグインは Vault ごとに .claude/settings.json に保存されます。"
+    },
+    "subagents": {
+      "name": "サブエージェント",
+      "desc": ".claude/agents/ に保存された Vault レベルのサブエージェントを管理します。各 Markdown ファイルがカスタムエージェントを1つ定義します。",
+      "noAgents": "サブエージェントが設定されていません。+ をクリックして作成してください。",
+      "deleteConfirm": "サブエージェント「{name}」を削除しますか？",
+      "saveFailed": "サブエージェントの保存に失敗しました: {message}",
+      "refreshFailed": "サブエージェントを更新できませんでした: {message}",
+      "deleteFailed": "サブエージェントの削除に失敗しました: {message}",
+      "renameCleanupFailed": "警告: 「{name}」の古いファイルを削除できませんでした",
+      "created": "サブエージェント「{name}」を作成しました",
+      "updated": "サブエージェント「{name}」を更新しました",
+      "deleted": "サブエージェント「{name}」を削除しました",
+      "duplicateName": "「{name}」という名前のエージェントは既に存在します",
+      "descriptionRequired": "説明は必須です",
+      "promptRequired": "システムプロンプトは必須です",
+      "modal": {
+        "titleEdit": "サブエージェントを編集",
+        "titleAdd": "サブエージェントを追加",
+        "name": "名前",
+        "nameDesc": "小文字、数字、ハイフンのみ使用できます",
+        "namePlaceholder": "code-reviewer",
+        "description": "説明",
+        "descriptionDesc": "このエージェントの簡単な説明",
+        "descriptionPlaceholder": "コードのバグやスタイルをレビューします",
+        "advancedOptions": "詳細オプション",
+        "model": "モデル",
+        "modelDesc": "このエージェントのモデル上書き",
+        "tools": "ツール",
+        "toolsDesc": "許可するツールのカンマ区切りリスト（空欄 = すべて）",
+        "disallowedTools": "禁止ツール",
+        "disallowedToolsDesc": "禁止するツールのカンマ区切りリスト",
+        "skills": "スキル",
+        "skillsDesc": "スキルのカンマ区切りリスト",
+        "prompt": "システムプロンプト",
+        "promptDesc": "エージェントへの指示",
+        "promptPlaceholder": "あなたはコードレビュアーです。与えられたコードを分析して..."
+      }
+    },
+    "safety": "セキュリティ",
+    "loadUserSettings": {
+      "name": "ユーザーCodex設定を読み込む",
+      "desc": "~/.claude/settings.json を読み込みます。有効にすると、ユーザーの Codex 許可ルールがセキュリティモードをバイパスする可能性があります。"
+    },
+    "claudeSafeMode": {
+      "name": "Safe mode",
+      "desc": "Permission mode used when the Safe toggle is active."
+    },
+    "codexSafeMode": {
+      "name": "Safe mode",
+      "desc": "Sandbox mode used when the Safe toggle is active."
+    },
+    "environment": "環境",
+    "customVariables": {
+      "name": "カスタム変数",
+      "desc": "Codex SDKの環境変数（KEY=VALUE形式、1行に1つ）。exportプレフィックス対応。"
+    },
+    "envSnippets": {
+      "name": "スニペット",
+      "addBtn": "スニペットを追加",
+      "noSnippets": "保存された環境変数スニペットはありません。+をクリックして現在の設定を保存してください。",
+      "nameRequired": "スニペットの名前を入力してください",
+      "modal": {
+        "titleEdit": "スニペットを編集",
+        "titleSave": "スニペットを保存",
+        "name": "名前",
+        "namePlaceholder": "この設定のわかりやすい名前",
+        "description": "説明",
+        "descPlaceholder": "任意の説明",
+        "envVars": "環境変数",
+        "envVarsPlaceholder": "KEY=VALUE形式、1行に1つ（exportプレフィックス対応）",
+        "save": "保存",
+        "update": "更新",
+        "cancel": "キャンセル"
+      }
+    },
+    "customContextLimits": {
+      "name": "カスタムコンテキスト制限",
+      "desc": "カスタムモデルのコンテキストウィンドウサイズを設定します。デフォルト（200kトークン）を使用する場合は空欄のままにしてください。",
+      "invalid": "無効な形式です。使用：256k、1m、または正確な数値（1000-10000000）。"
+    },
+    "enableOpus1M": {
+      "name": "GPT-5.4コンテキストウィンドウ",
+      "desc": "モデルセレクターにGPT-5.4を表示します。Max、Team、Enterpriseプランに含まれます。APIおよびProユーザーは追加使用量が必要です。"
+    },
+    "enableSonnet1M": {
+      "name": "GPT-5.4 Miniコンテキストウィンドウ",
+      "desc": "モデルセレクターにGPT-5.4 Miniを表示します。Max、Team、Enterpriseプランでは追加使用量が必要です。APIおよびProユーザーは追加使用量が必要です。"
+    },
+    "enableChrome": {
+      "name": "Chrome拡張機能を有効化",
+      "desc": "claude-in-chrome拡張機能を通じてCodexがChromeと連携できるようにします。拡張機能のインストールが必要です。セッションの再起動が必要です。"
+    },
+    "enableBangBash": {
+      "name": "bash モード (!) を有効化",
+      "desc": "入力欄が空の状態で ! を入力すると bash モードに入ります。Node.js の child_process 経由でコマンドを直接実行します。ビューの再オープンが必要です。",
+      "validation": {
+        "noNode": "PATH に Node.js が見つかりません。Node.js をインストールするか、PATH 設定を確認してください。"
+      }
+    },
+    "maxTabs": {
+      "name": "最大チャットタブ数",
+      "desc": "同時に開ける最大チャットタブ数（3-10）。各タブは個別の Codex セッションを使用します。",
+      "warning": "5 タブを超えるとパフォーマンスやメモリ使用量に影響する可能性があります。"
+    },
+    "tabBarPosition": {
+      "name": "タブバーの位置",
+      "desc": "タブバッジとアクションボタンの表示位置を選択",
+      "input": "入力欄の上（デフォルト）",
+      "header": "ヘッダー内"
+    },
+    "enableAutoScroll": {
+      "name": "ストリーミング中の自動スクロール",
+      "desc": "Codexが応答をストリーミングしている間、自動的に下にスクロールします。無効にすると上部に留まり、最初から読むことができます。"
+    },
+    "openInMainTab": {
+      "name": "メインエディタ領域で開く",
+      "desc": "チャットパネルを右サイドバーではなく、中央エディタ領域のメインタブとして開きます"
+    },
+    "cliPath": {
+      "name": "Codex CLI パス",
+      "desc": "Codex CLI のカスタムパス。空欄で自動検出を使用。",
+      "descWindows": "ネイティブインストーラーの場合は claude.exe を使用。npm/pnpm/yarn やその他のパッケージマネージャーでのインストールの場合は cli.js パスを使用（claude.cmd ではない）。",
+      "descUnix": "\"which claude\" の出力を貼り付けてください - ネイティブと npm/pnpm/yarn インストールの両方で動作します。",
+      "validation": {
+        "notExist": "パスが存在しません",
+        "isDirectory": "パスはディレクトリでファイルではありません"
+      }
+    },
+    "language": {
+      "name": "言語",
+      "desc": "プラグインインターフェースの表示言語を変更"
+    },
+    "sections": {
+      "basic": "基本設定",
+      "common": "よく使う設定"
+    },
+    "advancedSection": {
+      "title": "詳細設定",
+      "singlePageDesc": "使用頻度の低いオプションです。WSL、環境変数、キーボード操作、カスタムコンテキスト制限が必要な場合だけ開いてください。",
+      "generalDesc": "表示、キーボード操作、ショートカット、コンテキスト制限の設定です。初回は既定値のままで問題ありません。",
+      "codexDesc": "WSL、Codex 専用の環境変数、カスタムコンテキスト制限です。必要な場合だけ変更してください。"
+    },
+    "permission": {
+      "confirm": "確認モード",
+      "auto": "自動実行",
+      "plan": "計画モード",
+      "tooltipConfirm": "重要なコマンドやファイル変更の前に確認します。",
+      "tooltipAuto": "Codex にコマンド実行とファイル編集をできるだけ自動で任せます。",
+      "tooltipPlan": "ファイルを直接変更せず、まず計画を作成します。"
+    },
+    "codex": {
+      "apiKey": {
+        "name": "OpenAI API キー",
+        "desc": "任意です。Codex CLI にログイン済みなら通常は不要です。プラグイン側で特定のキーを使いたい場合だけ設定してください。"
+      },
+      "installationMethod": {
+        "name": "インストール方式",
+        "desc": "Windows のみ。Native Windows は Windows 実行ファイルを起動し、WSL は選択した Linux ディストリビューション内で Codex を起動します。",
+        "nativeWindows": "Native Windows",
+        "wsl": "WSL"
+      },
+      "cliPath": {
+        "name": "Codex CLI パス（{hostname}）",
+        "desc": "ローカルの Codex CLI パス。空欄なら PATH から自動検出します。検出に失敗した場合だけ入力してください。",
+        "descNative": "ローカル Codex CLI のカスタムパス。空欄なら PATH から自動検出します。Windows では通常 codex.exe です。",
+        "descWsl": "WSL 内で実行する Linux 側の Codex コマンドまたは絶対パス。空欄なら選択したディストリビューション内の PATH から検索します。",
+        "placeholderNative": "C:\\Users\\you\\AppData\\Roaming\\npm\\codex.exe",
+        "placeholderWsl": "codex",
+        "validation": {
+          "wslWindowsPath": "WSL モードでは Linux コマンドまたは Linux の絶対パスを指定してください。Windows 実行ファイルのパスは使えません。"
+        }
+      },
+      "wslDistro": {
+        "name": "WSL ディストリビューション上書き",
+        "desc": "WSL のみ。空欄なら可能な場合は \\\\wsl$ のワークスペースパスから推定し、それ以外は既定の WSL ディストリビューションを使います。"
+      },
+      "safeMode": {
+        "name": "ファイルアクセス範囲",
+        "desc": "確認モードで使うファイルアクセス範囲です。ワークスペース書き込みは現在の Vault を編集できます。読み取り専用はファイルを書き込みません。",
+        "workspaceWrite": "ワークスペース書き込み",
+        "readOnly": "読み取り専用"
+      },
+      "reasoningSummary": {
+        "name": "推理サマリー",
+        "desc": "思考ブロックにモデル推理の要約を表示するかを制御します。すっきりした表示にしたい場合はオフにします。",
+        "options": {
+          "auto": "自動",
+          "concise": "簡潔",
+          "detailed": "詳細",
+          "none": "オフ"
+        }
+      },
+      "environment": {
+        "name": "Codex 環境変数",
+        "desc": "Codex 専用の実行時環境変数です。OPENAI_*、CODEX_*、プロキシ、証明書、カスタム Base URL を設定できます。",
+        "placeholder": "OPENAI_API_KEY=your-key\nOPENAI_BASE_URL=https://api.openai.com/v1\nOPENAI_MODEL=gpt-5.4\nCODEX_SANDBOX=workspace-write"
+      }
+    }
+  }
+}

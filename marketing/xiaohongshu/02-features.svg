@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#f7f8fb"/>
+  <text x="86" y="150" fill="#101722" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="900">它能做什么？</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="42" fill="#1f2937">
+    <rect x="86" y="240" width="908" height="150" rx="28" fill="#e8fff8"/>
+    <text x="130" y="332">直接在 Obsidian 里和 Codex 对话</text>
+    <rect x="86" y="430" width="908" height="150" rx="28" fill="#eef3ff"/>
+    <text x="130" y="522">读取笔记上下文，帮你改稿/整理/分析</text>
+    <rect x="86" y="620" width="908" height="150" rx="28" fill="#fff8e8"/>
+    <text x="130" y="712">复用本地 Codex skills / MCP / subagents</text>
+    <rect x="86" y="810" width="908" height="150" rx="28" fill="#f0edff"/>
+    <text x="130" y="902">支持 GPT-5.5 和多语言设置</text>
+    <rect x="86" y="1000" width="908" height="150" rx="28" fill="#ffeef3"/>
+    <text x="130" y="1092">三种执行模式，安全和效率都可控</text>
+  </g>
+  <text x="86" y="1280" fill="#4b5563" font-family="Inter, Arial, sans-serif" font-size="34">适合写作、知识管理、代码笔记和本地自动化</text>
+</svg>
+

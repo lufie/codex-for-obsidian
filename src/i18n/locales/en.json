@@ -1,0 +1,399 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "clear": "Clear",
+    "clearAll": "Clear all",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "confirm": "Confirm",
+    "settings": "Settings",
+    "advanced": "Advanced",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "platform": "Platform",
+    "refresh": "Refresh",
+    "rewind": "Rewind"
+  },
+  "chat": {
+    "rewind": {
+      "confirmMessage": "Rewind to this point? File changes after this message will be reverted. Rewinding does not affect files edited manually or via bash.",
+      "confirmButton": "Rewind",
+      "ariaLabel": "Rewind to here",
+      "notice": "Rewound: {count} file(s) reverted",
+      "noticeSaveFailed": "Rewound: {count} file(s) reverted, but failed to save state: {error}",
+      "failed": "Rewind failed: {error}",
+      "cannot": "Cannot rewind: {error}",
+      "unavailableStreaming": "Cannot rewind while streaming",
+      "unavailableNoUuid": "Cannot rewind: missing message identifiers"
+    },
+    "fork": {
+      "ariaLabel": "Fork conversation",
+      "chooseTarget": "Fork conversation",
+      "targetNewTab": "New tab",
+      "targetCurrentTab": "Current tab",
+      "maxTabsReached": "Cannot fork: maximum {count} tabs reached",
+      "notice": "Forked to new tab",
+      "noticeCurrentTab": "Forked in current tab",
+      "failed": "Fork failed: {error}",
+      "unavailableStreaming": "Cannot fork while streaming",
+      "unavailableNoUuid": "Cannot fork: missing message identifiers",
+      "unavailableNoResponse": "Cannot fork: no response to fork from",
+      "errorMessageNotFound": "Message not found",
+      "errorNoSession": "No session ID available",
+      "errorNoActiveTab": "No active tab",
+      "commandNoMessages": "Cannot fork: no messages in conversation",
+      "commandNoAssistantUuid": "Cannot fork: no assistant response with identifiers"
+    },
+    "bangBash": {
+      "placeholder": "> Run a bash command...",
+      "commandPanel": "Command panel",
+      "copyAriaLabel": "Copy latest command output",
+      "clearAriaLabel": "Clear bash output",
+      "commandLabel": "{command}",
+      "statusLabel": "Status: {status}",
+      "collapseOutput": "Collapse command output",
+      "expandOutput": "Expand command output",
+      "running": "Running...",
+      "copyFailed": "Failed to copy to clipboard"
+    },
+    "externalFile": {
+      "dropHint": "Drop files here",
+      "pickerTitle": "Attach Files or Folders",
+      "pickerError": "Unable to open file picker.",
+      "fileTooLarge": "File too large",
+      "attachButton": "Attach files"
+    },
+    "toolbar": {
+      "effortLabel": "Effort:",
+      "thinkingLabel": "Thinking:",
+      "tokenCount": "{count} tokens",
+      "fastModeToggle": "Toggle fast mode"
+    },
+    "externalContext": {
+      "pickerTitle": "Select external context",
+      "duplicate": "This folder is already added as external context.",
+      "pickerError": "Unable to open folder picker.",
+      "conflictInside": "Cannot add \"{newPath}\" because it is inside existing path \"{existingPath}\".",
+      "conflictContains": "Cannot add \"{newPath}\" because it contains existing path \"{existingPath}\".",
+      "title": "External contexts",
+      "empty": "Click the folder icon to add one.",
+      "makeSessionOnly": "Persistent. Click to make session-only.",
+      "makePersistent": "Session-only. Click to persist.",
+      "removePath": "Remove path",
+      "countTitle": "{count} external contexts. Click to add more.",
+      "addTitle": "Add external contexts",
+      "noPath": "No path provided. Usage: /add-dir /absolute/path",
+      "pathMustBeAbsolute": "Path must be absolute. Usage: /add-dir /absolute/path"
+    },
+    "mcp": {
+      "title": "MCP servers",
+      "noneConfigured": "No MCP servers configured",
+      "allDisabled": "All MCP servers disabled",
+      "contextSaving": "Context-saving: can also enable via @{name}",
+      "countTitle": "{count} MCP servers enabled. Click to manage.",
+      "enableTitle": "MCP servers. Click to enable."
+    }
+  },
+  "settings": {
+    "title": "Codex for Obsidian Settings",
+    "tabs": {
+      "general": "General",
+      "claude": "Codex",
+      "codex": "Codex"
+    },
+    "display": "Display",
+    "conversations": "Conversations",
+    "content": "Content",
+    "input": "Input",
+    "setup": "Setup",
+    "models": "Models",
+    "experimental": "Experimental",
+    "userName": {
+      "name": "What should Codex for Obsidian call you?",
+      "desc": "Your name for personalized greetings (leave empty for generic greetings)"
+    },
+    "excludedTags": {
+      "name": "Excluded tags",
+      "desc": "Notes with these tags will not auto-load as context (one per line, without #)"
+    },
+    "mediaFolder": {
+      "name": "Media folder",
+      "desc": "Folder containing attachments/images. When notes use ![[image.jpg]], Codex will look here. Leave empty for vault root."
+    },
+    "systemPrompt": {
+      "name": "Custom system prompt",
+      "desc": "Additional instructions appended to the default system prompt"
+    },
+    "autoTitle": {
+      "name": "Auto-generate conversation titles",
+      "desc": "Automatically generate conversation titles after the first user message is sent."
+    },
+    "titleModel": {
+      "name": "Title generation model",
+      "desc": "Model used for auto-generating conversation titles.",
+      "auto": "Auto (current Codex model)"
+    },
+    "navMappings": {
+      "name": "Vim-style navigation mappings",
+      "desc": "One mapping per line. Format: \"map <key> <action>\" (actions: scrollUp, scrollDown, focusInput)."
+    },
+    "hotkeys": "Hotkeys",
+    "inlineEditHotkey": {
+      "name": "Inline Edit",
+      "descWithKey": "Current hotkey: {hotkey}",
+      "descNoKey": "No hotkey set",
+      "btnChange": "Change",
+      "btnSet": "Set hotkey"
+    },
+    "openChatHotkey": {
+      "name": "Open Chat",
+      "descWithKey": "Current hotkey: {hotkey}",
+      "descNoKey": "No hotkey set",
+      "btnChange": "Change",
+      "btnSet": "Set hotkey"
+    },
+    "newSessionHotkey": {
+      "name": "New Session",
+      "descWithKey": "Current hotkey: {hotkey}",
+      "descNoKey": "No hotkey set",
+      "btnChange": "Change",
+      "btnSet": "Set hotkey"
+    },
+    "newTabHotkey": {
+      "name": "New Tab",
+      "descWithKey": "Current hotkey: {hotkey}",
+      "descNoKey": "No hotkey set",
+      "btnChange": "Change",
+      "btnSet": "Set hotkey"
+    },
+    "closeTabHotkey": {
+      "name": "Close Tab",
+      "descWithKey": "Current hotkey: {hotkey}",
+      "descNoKey": "No hotkey set",
+      "btnChange": "Change",
+      "btnSet": "Set hotkey"
+    },
+    "slashCommands": {
+      "name": "Commands and Skills",
+      "desc": "Manage vault-level commands and skills stored in .claude/commands/ and .claude/skills/. Triggered by /name."
+    },
+    "hiddenSlashCommands": {
+      "name": "Hidden Commands",
+      "desc": "Hide specific slash commands from the dropdown. Useful for hiding Codex commands that are not relevant to Codex for Obsidian. Enter command names without the leading slash, one per line.",
+      "placeholder": "commit\nbuild\ntest"
+    },
+    "mcpServers": {
+      "name": "MCP Servers",
+      "desc": "Manage vault-level MCP server configurations stored in .claude/mcp.json. Servers with context-saving mode require @mention to activate."
+    },
+    "plugins": {
+      "name": "Codex Plugins",
+      "desc": "Manage Codex plugins discovered from ~/.claude/plugins. Enabled plugins are stored per vault in .claude/settings.json."
+    },
+    "subagents": {
+      "name": "Subagents",
+      "desc": "Manage vault-level subagents stored in .claude/agents/. Each Markdown file defines one custom agent.",
+      "noAgents": "No subagents configured. Click + to create one.",
+      "deleteConfirm": "Delete subagent \"{name}\"?",
+      "saveFailed": "Failed to save subagent: {message}",
+      "refreshFailed": "Failed to refresh subagents: {message}",
+      "deleteFailed": "Failed to delete subagent: {message}",
+      "renameCleanupFailed": "Warning: could not remove old file for \"{name}\"",
+      "created": "Subagent \"{name}\" created",
+      "updated": "Subagent \"{name}\" updated",
+      "deleted": "Subagent \"{name}\" deleted",
+      "duplicateName": "An agent named \"{name}\" already exists",
+      "descriptionRequired": "Description is required",
+      "promptRequired": "System prompt is required",
+      "modal": {
+        "titleEdit": "Edit Subagent",
+        "titleAdd": "Add Subagent",
+        "name": "Name",
+        "nameDesc": "Lowercase letters, numbers, and hyphens only",
+        "namePlaceholder": "code-reviewer",
+        "description": "Description",
+        "descriptionDesc": "Brief description of this agent",
+        "descriptionPlaceholder": "Reviews code for bugs and style",
+        "advancedOptions": "Advanced options",
+        "model": "Model",
+        "modelDesc": "Model override for this agent",
+        "tools": "Tools",
+        "toolsDesc": "Comma-separated list of allowed tools (empty = all)",
+        "disallowedTools": "Disallowed tools",
+        "disallowedToolsDesc": "Comma-separated list of tools to disallow",
+        "skills": "Skills",
+        "skillsDesc": "Comma-separated list of skills",
+        "prompt": "System prompt",
+        "promptDesc": "Instructions for the agent",
+        "promptPlaceholder": "You are a code reviewer. Analyze the given code for..."
+      }
+    },
+    "safety": "Safety",
+    "loadUserSettings": {
+      "name": "Load user Codex settings",
+      "desc": "Load ~/.claude/settings.json. When enabled, user's Codex permission rules may bypass Safe mode."
+    },
+    "claudeSafeMode": {
+      "name": "Safe mode",
+      "desc": "Permission mode used when the Safe toggle is active."
+    },
+    "codexSafeMode": {
+      "name": "Safe mode",
+      "desc": "Sandbox mode used when the Safe toggle is active."
+    },
+    "environment": "Environment",
+    "customVariables": {
+      "name": "Custom variables",
+      "desc": "Environment variables for Codex SDK (KEY=VALUE format, one per line). Shell export prefix supported."
+    },
+    "envSnippets": {
+      "name": "Snippets",
+      "addBtn": "Add snippet",
+      "noSnippets": "No saved environment snippets yet. Click + to save your current environment configuration.",
+      "nameRequired": "Please enter a name for the snippet",
+      "modal": {
+        "titleEdit": "Edit snippet",
+        "titleSave": "Save snippet",
+        "name": "Name",
+        "namePlaceholder": "A descriptive name for this environment configuration",
+        "description": "Description",
+        "descPlaceholder": "Optional description",
+        "envVars": "Environment variables",
+        "envVarsPlaceholder": "KEY=VALUE format, one per line (export prefix supported)",
+        "save": "Save",
+        "update": "Update",
+        "cancel": "Cancel"
+      }
+    },
+    "customContextLimits": {
+      "name": "Custom Context Limits",
+      "desc": "Set context window sizes for your custom models. Leave empty to use the default (200k tokens).",
+      "invalid": "Invalid format. Use: 256k, 1m, or exact count (1000-10000000)."
+    },
+    "enableOpus1M": {
+      "name": "GPT-5.4 context window",
+      "desc": "Show GPT-5.4 in the model selector. Included with Max, Team, and Enterprise plans. API and Pro users need extra usage."
+    },
+    "enableSonnet1M": {
+      "name": "GPT-5.4 Mini context window",
+      "desc": "Show GPT-5.4 Mini in the model selector. Requires extra usage on Max, Team, and Enterprise plans. API and Pro users need extra usage."
+    },
+    "enableChrome": {
+      "name": "Enable Chrome extension",
+      "desc": "Allow Codex to interact with Chrome via the claude-in-chrome extension. Requires the extension to be installed. Requires session restart."
+    },
+    "enableBangBash": {
+      "name": "Enable bash mode (!)",
+      "desc": "Type ! on empty input to enter bash mode. Runs commands directly via Node.js child_process. Requires view reopen.",
+      "validation": {
+        "noNode": "Node.js not found on PATH. Install Node.js or check your PATH configuration."
+      }
+    },
+    "maxTabs": {
+      "name": "Maximum chat tabs",
+      "desc": "Maximum number of concurrent chat tabs (3-10). Each tab uses a separate Codex session.",
+      "warning": "More than 5 tabs may impact performance and memory usage."
+    },
+    "tabBarPosition": {
+      "name": "Tab bar position",
+      "desc": "Choose where to display tab badges and action buttons",
+      "input": "Above input (default)",
+      "header": "In header"
+    },
+    "enableAutoScroll": {
+      "name": "Auto-scroll during streaming",
+      "desc": "Automatically scroll to the bottom as Codex streams responses. Disable to stay at the top and read from the beginning."
+    },
+    "openInMainTab": {
+      "name": "Open in main editor area",
+      "desc": "Open chat panel as a main tab in the center editor area instead of the right sidebar"
+    },
+    "cliPath": {
+      "name": "Codex CLI path",
+      "desc": "Custom path to Codex CLI. Leave empty for auto-detection.",
+      "descWindows": "For the native installer, use claude.exe. For npm/pnpm/yarn or other package manager installs, use the cli.js path (not claude.cmd).",
+      "descUnix": "Paste the output of \"which claude\" — works for both native and npm/pnpm/yarn installs.",
+      "validation": {
+        "notExist": "Path does not exist",
+        "isDirectory": "Path is a directory, not a file"
+      }
+    },
+    "language": {
+      "name": "Language",
+      "desc": "Change the display language of the plugin interface"
+    },
+    "sections": {
+      "basic": "Basic settings",
+      "common": "Common settings"
+    },
+    "advancedSection": {
+      "title": "Advanced settings",
+      "singlePageDesc": "Low-frequency options live here. Keep the defaults unless you need WSL, environment variables, keyboard navigation, or custom context limits.",
+      "generalDesc": "Interface behavior, keyboard navigation, shortcuts, and context-limit options. The defaults are fine for first use.",
+      "codexDesc": "WSL, Codex-specific environment variables, and custom context limits. Keep the defaults unless you need them."
+    },
+    "permission": {
+      "confirm": "Ask first",
+      "auto": "Auto run",
+      "plan": "Plan only",
+      "tooltipConfirm": "Ask before sensitive commands or file changes.",
+      "tooltipAuto": "Let Codex run commands and edit files with minimal prompts.",
+      "tooltipPlan": "Plan first without directly changing files."
+    },
+    "codex": {
+      "apiKey": {
+        "name": "OpenAI API key",
+        "desc": "Optional. Usually unnecessary when the Codex CLI is already signed in. Use this only when you want the plugin to provide a specific key."
+      },
+      "installationMethod": {
+        "name": "Installation method",
+        "desc": "Windows only. Native Windows launches the Windows executable; WSL launches Codex inside the selected Linux distribution.",
+        "nativeWindows": "Native Windows",
+        "wsl": "WSL"
+      },
+      "cliPath": {
+        "name": "Codex CLI path ({hostname})",
+        "desc": "Local Codex CLI path. Leave empty to auto-detect from PATH; fill this only if detection fails.",
+        "descNative": "Custom path to the local Codex CLI. Leave empty for PATH auto-detection. On Windows this is usually codex.exe.",
+        "descWsl": "Linux-side Codex command or absolute path to run inside WSL. Leave empty to look it up from PATH inside the selected distribution.",
+        "placeholderNative": "C:\\Users\\you\\AppData\\Roaming\\npm\\codex.exe",
+        "placeholderWsl": "codex",
+        "validation": {
+          "wslWindowsPath": "WSL mode expects a Linux command or Linux absolute path, not a Windows executable path."
+        }
+      },
+      "wslDistro": {
+        "name": "WSL distro override",
+        "desc": "WSL only. Leave empty to infer the distro from a \\\\wsl$ workspace path when possible, otherwise use the default WSL distro."
+      },
+      "safeMode": {
+        "name": "File access scope",
+        "desc": "File access used in Ask first mode. Workspace write can edit the current vault; read-only cannot write files.",
+        "workspaceWrite": "Workspace write",
+        "readOnly": "Read only"
+      },
+      "reasoningSummary": {
+        "name": "Reasoning summary",
+        "desc": "Controls whether the thinking block shows a summary of the model reasoning. Turn it off for a cleaner interface.",
+        "options": {
+          "auto": "Auto",
+          "concise": "Concise",
+          "detailed": "Detailed",
+          "none": "Off"
+        }
+      },
+      "environment": {
+        "name": "Codex environment",
+        "desc": "Codex-specific runtime variables. Advanced users can set OPENAI_*, CODEX_*, proxies, certificates, or a custom base URL here.",
+        "placeholder": "OPENAI_API_KEY=your-key\nOPENAI_BASE_URL=https://api.openai.com/v1\nOPENAI_MODEL=gpt-5.4\nCODEX_SANDBOX=workspace-write"
+      }
+    }
+  }
+}

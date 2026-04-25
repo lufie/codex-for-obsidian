@@ -1,0 +1,10 @@
+{
+  "id": "codex-for-obsidian",
+  "name": "Codex for Obsidian",
+  "version": "2.0.1",
+  "minAppVersion": "1.4.5",
+  "description": "Embeds Codex and GPT models as an AI coding and writing collaborator in your Obsidian vault.",
+  "author": "lufie",
+  "authorUrl": "https://github.com/lufie",
+  "isDesktopOnly": true
+}

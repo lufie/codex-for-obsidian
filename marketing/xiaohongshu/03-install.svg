@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#111827"/>
+  <text x="86" y="150" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="900">怎么安装？</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="110" y="280" fill="#66e3c4" font-size="42" font-weight="800">1. 安装 Codex CLI</text>
+    <rect x="110" y="320" width="860" height="92" rx="18" fill="#0b111a" stroke="#334155"/>
+    <text x="148" y="378" fill="#dbeafe" font-size="30">npm install -g @openai/codex</text>
+    <text x="110" y="500" fill="#66e3c4" font-size="42" font-weight="800">2. 下载 Release 三个文件</text>
+    <text x="148" y="580" fill="#e5e7eb" font-size="34">manifest.json · main.js · styles.css</text>
+    <text x="110" y="700" fill="#66e3c4" font-size="42" font-weight="800">3. 放进 Obsidian 插件目录</text>
+    <rect x="110" y="740" width="860" height="150" rx="18" fill="#0b111a" stroke="#334155"/>
+    <text x="148" y="802" fill="#dbeafe" font-size="28">&lt;vault&gt;/.obsidian/plugins/</text>
+    <text x="148" y="850" fill="#dbeafe" font-size="28">codex-for-obsidian/</text>
+    <text x="110" y="990" fill="#66e3c4" font-size="42" font-weight="800">4. 重启 Obsidian 并启用</text>
+    <text x="110" y="1080" fill="#e5e7eb" font-size="34">第三方插件 → Codex for Obsidian</text>
+    <text x="110" y="1220" fill="#9ca3af" font-size="30">如果找不到 codex，在设置里填 CLI path。</text>
+  </g>
+</svg>
+

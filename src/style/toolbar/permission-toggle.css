@@ -1,0 +1,38 @@
+/* Permission Mode Toggle */
+.claudian-permission-toggle {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: auto;
+  padding: 2px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+  min-width: 0;
+  flex-shrink: 0;
+}
+
+.claudian-permission-option {
+  border: 0;
+  border-radius: 6px;
+  padding: 2px 7px;
+  min-height: 20px;
+  color: var(--text-muted);
+  background: transparent;
+  font-size: 11px;
+  line-height: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.claudian-permission-option:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+.claudian-permission-option.is-active {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  font-weight: 600;
+}

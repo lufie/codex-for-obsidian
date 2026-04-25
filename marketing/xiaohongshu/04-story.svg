@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#fbfbf8"/>
+  <text x="90" y="150" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="900">为什么做这个？</text>
+  <text x="90" y="270" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="40">我一直想要一个：</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="42" fill="#0f172a">
+    <text x="120" y="390">不离开 Obsidian</text>
+    <text x="120" y="500">能读我的知识库</text>
+    <text x="120" y="610">能调用本地 Codex</text>
+    <text x="120" y="720">还能保留安全控制感</text>
+  </g>
+  <rect x="90" y="820" width="900" height="250" rx="34" fill="#101722"/>
+  <text x="135" y="910" fill="#66e3c4" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">于是我基于 Claudian vibe coding</text>
+  <text x="135" y="980" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">做了 Codex for Obsidian</text>
+  <text x="90" y="1190" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="34">如果你也在用 Obsidian + Codex，</text>
+  <text x="90" y="1250" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="34">这个插件应该会很顺手。</text>
+</svg>
+

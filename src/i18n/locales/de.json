@@ -1,0 +1,399 @@
+{
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "clear": "Löschen",
+    "clearAll": "Alle löschen",
+    "loading": "Lädt",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "warning": "Warnung",
+    "confirm": "Bestätigen",
+    "settings": "Einstellungen",
+    "advanced": "Erweitert",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "platform": "Plattform",
+    "refresh": "Aktualisieren",
+    "rewind": "Zurückspulen"
+  },
+  "chat": {
+    "rewind": {
+      "confirmMessage": "Zu diesem Punkt zurückspulen? Dateiänderungen nach dieser Nachricht werden rückgängig gemacht. Das Zurückspulen betrifft keine manuell oder über Bash bearbeiteten Dateien.",
+      "confirmButton": "Zurückspulen",
+      "ariaLabel": "Hierher zurückspulen",
+      "notice": "Zurückgespult: {count} Datei(en) wiederhergestellt",
+      "noticeSaveFailed": "Zurückgespult: {count} Datei(en) wiederhergestellt, aber Status konnte nicht gespeichert werden: {error}",
+      "failed": "Zurückspulen fehlgeschlagen: {error}",
+      "cannot": "Zurückspulen nicht möglich: {error}",
+      "unavailableStreaming": "Zurückspulen während des Streamings nicht möglich",
+      "unavailableNoUuid": "Zurückspulen nicht möglich: Nachrichtenkennungen fehlen"
+    },
+    "fork": {
+      "ariaLabel": "Konversation verzweigen",
+      "chooseTarget": "Konversation verzweigen",
+      "targetNewTab": "Neuer Tab",
+      "targetCurrentTab": "Aktueller Tab",
+      "maxTabsReached": "Verzweigung nicht möglich: maximal {count} Tabs erreicht",
+      "notice": "In neuem Tab verzweigt",
+      "noticeCurrentTab": "Im aktuellen Tab verzweigt",
+      "failed": "Verzweigung fehlgeschlagen: {error}",
+      "unavailableStreaming": "Verzweigung während des Streamings nicht möglich",
+      "unavailableNoUuid": "Verzweigung nicht möglich: Nachrichtenkennungen fehlen",
+      "unavailableNoResponse": "Verzweigung nicht möglich: keine Antwort zum Verzweigen vorhanden",
+      "errorMessageNotFound": "Nachricht nicht gefunden",
+      "errorNoSession": "Keine Sitzungs-ID verfügbar",
+      "errorNoActiveTab": "Kein aktiver Tab",
+      "commandNoMessages": "Verzweigung nicht möglich: keine Nachrichten in der Konversation",
+      "commandNoAssistantUuid": "Verzweigung nicht möglich: keine Assistentenantwort mit Kennungen"
+    },
+    "bangBash": {
+      "placeholder": "> Einen Bash-Befehl ausführen...",
+      "commandPanel": "Befehlspanel",
+      "copyAriaLabel": "Neueste Befehlsausgabe kopieren",
+      "clearAriaLabel": "Bash-Ausgabe löschen",
+      "commandLabel": "{command}",
+      "statusLabel": "Status des Befehls: {status}",
+      "collapseOutput": "Befehlsausgabe einklappen",
+      "expandOutput": "Befehlsausgabe ausklappen",
+      "running": "Wird ausgeführt...",
+      "copyFailed": "Kopieren in die Zwischenablage fehlgeschlagen"
+    },
+    "externalFile": {
+      "dropHint": "Drop files here",
+      "pickerTitle": "Attach Files or Folders",
+      "pickerError": "Unable to open file picker.",
+      "fileTooLarge": "File too large",
+      "attachButton": "Attach files"
+    },
+    "toolbar": {
+      "effortLabel": "Aufwand:",
+      "thinkingLabel": "Denken:",
+      "tokenCount": "{count} Tokens",
+      "fastModeToggle": "Schnellmodus umschalten"
+    },
+    "externalContext": {
+      "pickerTitle": "Externen Kontext auswählen",
+      "duplicate": "Dieser Ordner wurde bereits als externer Kontext hinzugefügt.",
+      "pickerError": "Ordnerauswahl konnte nicht geöffnet werden.",
+      "conflictInside": "„{newPath}“ kann nicht hinzugefügt werden, weil es in „{existingPath}“ liegt.",
+      "conflictContains": "„{newPath}“ kann nicht hinzugefügt werden, weil es „{existingPath}“ enthält.",
+      "title": "Externe Kontexte",
+      "empty": "Zum Hinzufügen auf das Ordnersymbol klicken",
+      "makeSessionOnly": "Persistiert. Klicken, um nur diese Sitzung zu verwenden.",
+      "makePersistent": "Nur diese Sitzung. Klicken, um zu persistieren.",
+      "removePath": "Pfad entfernen",
+      "countTitle": "{count} externe Kontexte. Klicken, um weitere hinzuzufügen.",
+      "addTitle": "Externe Kontexte hinzufügen",
+      "noPath": "Kein Pfad angegeben. Verwendung: /add-dir /absolute/path",
+      "pathMustBeAbsolute": "Der Pfad muss absolut sein. Verwendung: /add-dir /absolute/path"
+    },
+    "mcp": {
+      "title": "MCP-Server",
+      "noneConfigured": "Keine MCP-Server konfiguriert",
+      "allDisabled": "Alle MCP-Server sind deaktiviert",
+      "contextSaving": "Kontextspeicherung: auch über @{name} aktivierbar",
+      "countTitle": "{count} MCP-Server aktiviert. Klicken zum Verwalten.",
+      "enableTitle": "MCP-Server. Klicken zum Aktivieren."
+    }
+  },
+  "settings": {
+    "title": "Codex for Obsidian Einstellungen",
+    "tabs": {
+      "general": "Allgemein",
+      "claude": "Codex",
+      "codex": "Codex"
+    },
+    "display": "Anzeige",
+    "conversations": "Unterhaltungen",
+    "content": "Inhalte",
+    "input": "Eingabe",
+    "setup": "Einrichtung",
+    "models": "Modelle",
+    "experimental": "Experimentell",
+    "userName": {
+      "name": "Wie soll Codex for Obsidian dich nennen?",
+      "desc": "Dein Name für personalisierte Begrüßungen (leer lassen für allgemeine Begrüßungen)"
+    },
+    "excludedTags": {
+      "name": "Ausgeschlossene Tags",
+      "desc": "Notizen mit diesen Tags werden nicht automatisch als Kontext geladen (einer pro Zeile, ohne #)"
+    },
+    "mediaFolder": {
+      "name": "Medienordner",
+      "desc": "Ordner mit Anhängen/Bildern. Wenn Notizen ![[image.jpg]] verwenden, sucht Codex hier. Leer lassen für Vault-Stammverzeichnis."
+    },
+    "systemPrompt": {
+      "name": "Benutzerdefinierter System-Prompt",
+      "desc": "Zusätzliche Anweisungen, die an den Standard-System-Prompt angehängt werden"
+    },
+    "autoTitle": {
+      "name": "Konversationstitel automatisch generieren",
+      "desc": "Generiert automatisch Konversationstitel nach der ersten Nutzernachricht."
+    },
+    "titleModel": {
+      "name": "Titel-Generierungsmodell",
+      "desc": "Modell zur automatischen Generierung von Konversationstiteln.",
+      "auto": "Automatisch (Codex)"
+    },
+    "navMappings": {
+      "name": "Vim-Style Navigationszuordnungen",
+      "desc": "Eine Zuordnung pro Zeile. Format: \"map <Taste> <Aktion>\" (Aktionen: scrollUp, scrollDown, focusInput)."
+    },
+    "hotkeys": "Tastenkürzel",
+    "inlineEditHotkey": {
+      "name": "Inline-Bearbeitung",
+      "descWithKey": "Aktuelles Tastenkürzel: {hotkey}",
+      "descNoKey": "Kein Tastenkürzel festgelegt",
+      "btnChange": "Ändern",
+      "btnSet": "Festlegen"
+    },
+    "openChatHotkey": {
+      "name": "Chat öffnen",
+      "descWithKey": "Aktuelles Tastenkürzel: {hotkey}",
+      "descNoKey": "Kein Tastenkürzel festgelegt",
+      "btnChange": "Ändern",
+      "btnSet": "Festlegen"
+    },
+    "newSessionHotkey": {
+      "name": "Neue Sitzung",
+      "descWithKey": "Aktuelles Tastenkürzel: {hotkey}",
+      "descNoKey": "Kein Tastenkürzel festgelegt",
+      "btnChange": "Ändern",
+      "btnSet": "Festlegen"
+    },
+    "newTabHotkey": {
+      "name": "Neuer Tab",
+      "descWithKey": "Aktuelles Tastenkürzel: {hotkey}",
+      "descNoKey": "Kein Tastenkürzel festgelegt",
+      "btnChange": "Ändern",
+      "btnSet": "Festlegen"
+    },
+    "closeTabHotkey": {
+      "name": "Tab schließen",
+      "descWithKey": "Aktuelles Tastenkürzel: {hotkey}",
+      "descNoKey": "Kein Tastenkürzel festgelegt",
+      "btnChange": "Ändern",
+      "btnSet": "Festlegen"
+    },
+    "slashCommands": {
+      "name": "Befehle und Fähigkeiten",
+      "desc": "Verwalte Vault-Befehle und -Fähigkeiten in .claude/commands/ und .claude/skills/. Ausgelöst durch /Name."
+    },
+    "hiddenSlashCommands": {
+      "name": "Ausgeblendete Befehle",
+      "desc": "Bestimmte Schrägstrich-Befehle aus dem Dropdown ausblenden. Nützlich, um Codex-Befehle auszublenden, die für Codex for Obsidian nicht relevant sind. Gib Befehlsnamen ohne führenden Schrägstrich ein, einen pro Zeile.",
+      "placeholder": "commit\nbuild\ntest"
+    },
+    "mcpServers": {
+      "name": "MCP-Server",
+      "desc": "Verwalte Vault-MCP-Serverkonfigurationen in .claude/mcp.json. Server mit Kontext-Speichermodus benötigen @mention zur Aktivierung."
+    },
+    "plugins": {
+      "name": "Codex-Plugins",
+      "desc": "Verwalte Codex Plugins aus ~/.claude/plugins. Aktivierte Plugins werden pro Vault in .claude/settings.json gespeichert."
+    },
+    "subagents": {
+      "name": "Sub-Agenten",
+      "desc": "Verwalte Vault-Sub-Agenten in .claude/agents/. Jede Markdown-Datei definiert einen benutzerdefinierten Agenten.",
+      "noAgents": "Keine Sub-Agenten konfiguriert. Klicke auf +, um einen zu erstellen.",
+      "deleteConfirm": "Sub-Agent \"{name}\" löschen?",
+      "saveFailed": "Sub-Agent konnte nicht gespeichert werden: {message}",
+      "refreshFailed": "Sub-Agenten konnten nicht aktualisiert werden: {message}",
+      "deleteFailed": "Sub-Agent konnte nicht gelöscht werden: {message}",
+      "renameCleanupFailed": "Warnung: Alte Datei für \"{name}\" konnte nicht entfernt werden",
+      "created": "Sub-Agent \"{name}\" erstellt",
+      "updated": "Sub-Agent \"{name}\" aktualisiert",
+      "deleted": "Sub-Agent \"{name}\" gelöscht",
+      "duplicateName": "Ein Agent mit dem Namen \"{name}\" existiert bereits",
+      "descriptionRequired": "Beschreibung ist erforderlich",
+      "promptRequired": "System-Prompt ist erforderlich",
+      "modal": {
+        "titleEdit": "Sub-Agent bearbeiten",
+        "titleAdd": "Sub-Agent hinzufügen",
+        "name": "Name",
+        "nameDesc": "Nur Kleinbuchstaben, Zahlen und Bindestriche",
+        "namePlaceholder": "code-reviewer",
+        "description": "Beschreibung",
+        "descriptionDesc": "Kurzbeschreibung dieses Agenten",
+        "descriptionPlaceholder": "Prüft Code auf Fehler und Stil",
+        "advancedOptions": "Erweiterte Optionen",
+        "model": "Modell",
+        "modelDesc": "Modellüberschreibung für diesen Agenten",
+        "tools": "Tools",
+        "toolsDesc": "Kommagetrennte Liste zulässiger Tools (leer = alle)",
+        "disallowedTools": "Nicht erlaubte Tools",
+        "disallowedToolsDesc": "Kommagetrennte Liste der zu verbietenden Tools",
+        "skills": "Fähigkeiten",
+        "skillsDesc": "Kommagetrennte Liste von Fähigkeiten",
+        "prompt": "System-Prompt",
+        "promptDesc": "Anweisungen für den Agenten",
+        "promptPlaceholder": "Du bist ein Code-Reviewer. Analysiere den angegebenen Code auf..."
+      }
+    },
+    "safety": "Sicherheit",
+    "loadUserSettings": {
+      "name": "Benutzer-Codex-Einstellungen laden",
+      "desc": "Lädt ~/.claude/settings.json. Wenn aktiviert, können Benutzer-Codex-Code-Berechtigungsregeln den Sicherheitsmodus umgehen."
+    },
+    "claudeSafeMode": {
+      "name": "Safe mode",
+      "desc": "Permission mode used when the Safe toggle is active."
+    },
+    "codexSafeMode": {
+      "name": "Safe mode",
+      "desc": "Sandbox mode used when the Safe toggle is active."
+    },
+    "environment": "Umgebung",
+    "customVariables": {
+      "name": "Benutzerdefinierte Variablen",
+      "desc": "Umgebungsvariablen für Codex SDK (KEY=VALUE-Format, eine pro Zeile). Export-Präfix unterstützt."
+    },
+    "envSnippets": {
+      "name": "Snippets",
+      "addBtn": "Snippet hinzufügen",
+      "noSnippets": "Keine gespeicherten Umgebungsvariablen-Snippets. Klicken Sie auf +, um Ihre aktuelle Konfiguration zu speichern.",
+      "nameRequired": "Bitte geben Sie einen Namen für das Snippet ein",
+      "modal": {
+        "titleEdit": "Snippet bearbeiten",
+        "titleSave": "Snippet speichern",
+        "name": "Name",
+        "namePlaceholder": "Ein beschreibender Name für diese Umgebungskonfiguration",
+        "description": "Beschreibung",
+        "descPlaceholder": "Optionale Beschreibung",
+        "envVars": "Umgebungsvariablen",
+        "envVarsPlaceholder": "KEY=VALUE-Format, eine pro Zeile (export-Präfix unterstützt)",
+        "save": "Speichern",
+        "update": "Aktualisieren",
+        "cancel": "Abbrechen"
+      }
+    },
+    "customContextLimits": {
+      "name": "Benutzerdefinierte Kontextlimits",
+      "desc": "Legen Sie die Kontextfenstergrößen für Ihre benutzerdefinierten Modelle fest. Leer lassen für den Standardwert (200k Token).",
+      "invalid": "Ungültiges Format. Verwenden Sie: 256k, 1m oder exakte Anzahl (1000-10000000)."
+    },
+    "enableOpus1M": {
+      "name": "GPT-5.4 Kontextfenster",
+      "desc": "GPT-5.4 in der Modellauswahl anzeigen. In Max-, Team- und Enterprise-Plänen enthalten. API- und Pro-Nutzer benötigen zusätzliche Nutzung."
+    },
+    "enableSonnet1M": {
+      "name": "GPT-5.4 Mini Kontextfenster",
+      "desc": "GPT-5.4 Mini in der Modellauswahl anzeigen. Erfordert zusätzliche Nutzung bei Max-, Team- und Enterprise-Plänen. API- und Pro-Nutzer benötigen zusätzliche Nutzung."
+    },
+    "enableChrome": {
+      "name": "Chrome-Erweiterung aktivieren",
+      "desc": "Erlaubt Codex die Interaktion mit Chrome über die claude-in-chrome-Erweiterung. Die Erweiterung muss installiert sein. Erfordert Neustart der Sitzung."
+    },
+    "enableBangBash": {
+      "name": "Bash-Modus (!) aktivieren",
+      "desc": "Gib ! in ein leeres Eingabefeld ein, um den Bash-Modus zu starten. Führt Befehle direkt über Node.js child_process aus. Die Ansicht muss neu geöffnet werden.",
+      "validation": {
+        "noNode": "Node.js wurde auf PATH nicht gefunden. Installiere Node.js oder prüfe deine PATH-Konfiguration."
+      }
+    },
+    "maxTabs": {
+      "name": "Maximale Chat-Tabs",
+      "desc": "Maximale Anzahl gleichzeitiger Chat-Tabs (3-10). Jeder Tab verwendet eine separate Codex-Sitzung.",
+      "warning": "Mehr als 5 Tabs können Leistung und Speichernutzung beeinträchtigen."
+    },
+    "tabBarPosition": {
+      "name": "Tab-Leiste Position",
+      "desc": "Wählen Sie, wo Tab-Badges und Aktionsschaltflächen angezeigt werden",
+      "input": "Über Eingabefeld (Standard)",
+      "header": "In Kopfzeile"
+    },
+    "enableAutoScroll": {
+      "name": "Automatisches Scrollen während Streaming",
+      "desc": "Automatisch nach unten scrollen, während Codex Antworten streamt. Deaktivieren, um oben zu bleiben und von Anfang an zu lesen."
+    },
+    "openInMainTab": {
+      "name": "Im Haupteditorbereich öffnen",
+      "desc": "Chat-Panel als Haupttab im zentralen Editorbereich statt in der rechten Seitenleiste öffnen"
+    },
+    "cliPath": {
+      "name": "Codex CLI-Pfad",
+      "desc": "Benutzerdefinierter Pfad zum Codex CLI. Leer lassen für automatische Erkennung.",
+      "descWindows": "Für den nativen Installer verwenden Sie claude.exe. Für npm/pnpm/yarn oder andere Paketmanager-Installationen verwenden Sie den cli.js-Pfad (nicht claude.cmd).",
+      "descUnix": "Fügen Sie die Ausgabe von \"which claude\" ein — funktioniert sowohl für native als auch npm/pnpm/yarn-Installationen.",
+      "validation": {
+        "notExist": "Pfad existiert nicht",
+        "isDirectory": "Pfad ist ein Verzeichnis, keine Datei"
+      }
+    },
+    "language": {
+      "name": "Sprache",
+      "desc": "Anzeigesprache der Plugin-Oberfläche ändern"
+    },
+    "sections": {
+      "basic": "Grundeinstellungen",
+      "common": "Häufige Einstellungen"
+    },
+    "advancedSection": {
+      "title": "Erweiterte Einstellungen",
+      "singlePageDesc": "Selten benötigte Optionen. Behalten Sie die Standardwerte bei, außer Sie brauchen WSL, Umgebungsvariablen, Tastaturnavigation oder eigene Kontextlimits.",
+      "generalDesc": "Optionen für Oberfläche, Tastaturnavigation, Tastenkürzel und Kontextlimits. Für den Einstieg sind die Standardwerte geeignet.",
+      "codexDesc": "WSL, Codex-spezifische Umgebungsvariablen und eigene Kontextlimits. Nur bei Bedarf ändern."
+    },
+    "permission": {
+      "confirm": "Nachfragen",
+      "auto": "Automatisch",
+      "plan": "Nur planen",
+      "tooltipConfirm": "Vor sensiblen Befehlen oder Dateiänderungen nachfragen.",
+      "tooltipAuto": "Codex Befehle und Dateiänderungen mit möglichst wenigen Rückfragen ausführen lassen.",
+      "tooltipPlan": "Zuerst einen Plan erstellen, ohne Dateien direkt zu ändern."
+    },
+    "codex": {
+      "apiKey": {
+        "name": "OpenAI-API-Schlüssel",
+        "desc": "Optional. Normalerweise nicht nötig, wenn die Codex CLI bereits angemeldet ist. Nur verwenden, wenn das Plugin einen bestimmten Schlüssel bereitstellen soll."
+      },
+      "installationMethod": {
+        "name": "Installationsmethode",
+        "desc": "Nur Windows. Native Windows startet die Windows-Programmdatei; WSL startet Codex in der ausgewählten Linux-Distribution.",
+        "nativeWindows": "Native Windows",
+        "wsl": "WSL"
+      },
+      "cliPath": {
+        "name": "Codex-CLI-Pfad ({hostname})",
+        "desc": "Lokaler Pfad zur Codex CLI. Leer lassen für automatische Erkennung über PATH; nur ausfüllen, wenn die Erkennung fehlschlägt.",
+        "descNative": "Benutzerdefinierter Pfad zur lokalen Codex CLI. Leer lassen für PATH-Erkennung. Unter Windows ist dies meist codex.exe.",
+        "descWsl": "Linux-seitiger Codex-Befehl oder absoluter Pfad innerhalb von WSL. Leer lassen, um in der PATH der ausgewählten Distribution zu suchen.",
+        "placeholderNative": "C:\\Users\\you\\AppData\\Roaming\\npm\\codex.exe",
+        "placeholderWsl": "codex",
+        "validation": {
+          "wslWindowsPath": "Der WSL-Modus erwartet einen Linux-Befehl oder einen absoluten Linux-Pfad, keinen Windows-Programmdateipfad."
+        }
+      },
+      "wslDistro": {
+        "name": "WSL-Distribution überschreiben",
+        "desc": "Nur WSL. Leer lassen, um die Distribution möglichst aus einem \\\\wsl$-Workspace-Pfad abzuleiten; sonst wird die Standard-WSL-Distribution verwendet."
+      },
+      "safeMode": {
+        "name": "Dateizugriff",
+        "desc": "Dateizugriff im Modus Nachfragen. Workspace-Schreibzugriff kann den aktuellen Vault bearbeiten; schreibgeschützt schreibt keine Dateien.",
+        "workspaceWrite": "Workspace-Schreibzugriff",
+        "readOnly": "Schreibgeschützt"
+      },
+      "reasoningSummary": {
+        "name": "Denkzusammenfassung",
+        "desc": "Legt fest, ob der Denkblock eine Zusammenfassung der Modellüberlegung zeigt. Für eine ruhigere Oberfläche ausschalten.",
+        "options": {
+          "auto": "Automatisch",
+          "concise": "Kurz",
+          "detailed": "Detailliert",
+          "none": "Aus"
+        }
+      },
+      "environment": {
+        "name": "Codex-Umgebung",
+        "desc": "Codex-spezifische Laufzeitvariablen. Fortgeschrittene Nutzer können hier OPENAI_*, CODEX_*, Proxys, Zertifikate oder eine eigene Base URL setzen.",
+        "placeholder": "OPENAI_API_KEY=your-key\nOPENAI_BASE_URL=https://api.openai.com/v1\nOPENAI_MODEL=gpt-5.4\nCODEX_SANDBOX=workspace-write"
+      }
+    }
+  }
+}
