@@ -4,8 +4,6 @@
 
 Codex for Obsidian 是一个 Obsidian 桌面端插件，把 OpenAI Codex 放进 Obsidian 侧边栏，让你可以在知识库里直接和 GPT/Codex 对话、读取上下文、编辑笔记，并复用本地 Codex 的能力。
 
-![Codex for Obsidian hero](../assets/hero.svg)
-
 ## 功能亮点
 
 - 在 Obsidian 里直接使用 Codex/GPT 对话。
@@ -109,4 +107,3 @@ styles.css
 ## 许可证
 
 MIT。
-

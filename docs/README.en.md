@@ -4,8 +4,6 @@
 
 Codex for Obsidian embeds OpenAI Codex in an Obsidian sidebar so you can chat with GPT/Codex, work with vault context, edit notes, and use local Codex capabilities without leaving your knowledge base.
 
-![Codex for Obsidian hero](../assets/hero.svg)
-
 ## Features
 
 - Codex/GPT chat inside Obsidian.
@@ -109,4 +107,3 @@ This project is a Codex-first adaptation produced by vibe coding from [Claudian]
 ## License
 
 MIT.
-
