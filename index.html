@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="AI Morning Brief: a clean daily briefing site generated from local Obsidian Morning-Brief Markdown notes."
+    />
+    <title>AI Morning Brief</title>
+    <link
+      rel="icon"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230f8b7d"/><text x="32" y="41" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="white">M</text></svg>'
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="AI Morning Brief 首页">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span>
+            <strong>AI Morning Brief</strong>
+            <small>每日 AI 机会和技术信号</small>
+          </span>
+        </a>
+        <nav class="top-actions" aria-label="站点操作">
+          <button class="ghost-button" type="button" data-action="latest">最新</button>
+        </nav>
+      </header>
+
+      <main class="loading-state" aria-live="polite">
+        <p>正在读取今日简报...</p>
+      </main>
+    </div>
+
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
